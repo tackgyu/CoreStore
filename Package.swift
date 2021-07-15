@@ -32,7 +32,7 @@ let package = Package(
            .macOS(.v10_12), .iOS(.v10), .tvOS(.v10), .watchOS(.v3)
     ],
     products: [
-        .library(name: "CoreStore", type: .static, targets: ["CoreStore"])
+        .library(name: "CoreStore", targets: ["CoreStore"])
     ],
     dependencies: [],
     targets: [
